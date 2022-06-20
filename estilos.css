@@ -1,0 +1,363 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif !important;
+}
+body{
+    background-color: black !important;
+    width: 100%;
+}
+
+#aIMG{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+#selection{
+    /* background-color: aqua; */
+    padding: 1em;
+    margin: 0 6em 0 6em;
+    display: flex;
+}
+.dropdown{
+margin: 0 1em 0 1em;  
+}
+.nav-link{
+    font-size: 0.9em;
+    color: #999 !important;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.nav-link:hover{
+    color:white !important;
+}
+#navbar{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    flex-direction: row; 
+    justify-content: space-around;
+ 
+}
+
+#navbar img{
+display: block;
+max-width: 100%;
+height: 100%;
+padding: 0.9em;
+}
+
+#divOutline{
+    display: flex;
+}
+
+#carouselExampleIndicators{
+    margin: 0 6em 0 6em;
+}
+
+/* css peliculas */
+.ch-billaboard-title{
+    margin: 1em 3em 0 3em;   
+    color: white;
+}
+#divGeneralPeliculas{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    margin: 0 6em 0 6em;
+}
+.ch-billaboard-movie{
+    padding: 1em;
+}
+.ch-billaboard-movie{
+/* background-color: red; */
+width: 15em;
+text-align: center;
+
+}
+
+.ch-billaboard-grid-item{
+border: solid 5px black;
+}
+
+.ch-billaboard-movie span{
+    color: white;
+    font-size: small;
+}
+
+/* CINE MATCH */
+#divDelH1{
+    padding-top:3em;
+}
+#h1Match{
+    color: #fafafa;
+    text-transform: uppercase;
+    font-size: 2em;
+    background-color: #e90004;
+    font-weight: 900;
+    padding: 0.5em 1em 0.50em 1em;
+    text-align: center;  
+}
+.divBody{
+    /* background: darkgray;  */
+    padding: 3em 0 1em 0;
+}
+.divBody h1{
+    color: #fafafa;
+    text-transform: uppercase;
+    font-size: 2em;
+    background-color: #e90004;
+    font-weight: 900;
+    padding: 0.50em 5em 0.50em 5em;
+    text-align: center;
+}
+#sectionGeneralCineMatch{
+    background: #fafafa;
+    /* height: 50vh; */
+    padding: 0 6em 0 6em;
+    justify-content: center;
+    display: flex;
+}
+#formCineMatch{
+    text-align: center;
+    background: white;
+    border: 1px solid rgba(219,219,219);
+    box-shadow: 2px 5px 5px grey;
+    padding: 2em;
+    width: 70%;
+    margin: 2em;
+    border-radius: 25px;
+}
+.divsLabel{
+    margin: 1em;
+}
+.inputRegistro{
+    width: 60%;
+    height: 30px;
+}
+.selectorCine{
+    width: 60%;
+    height: 30px;
+    margin: 5px;
+}
+
+/* MAQUETA */
+
+
+
+/* RESPONSIVE */
+#navMobile{
+    /* background-color: green; */
+    margin-bottom: 1em;
+    padding: 1em 5px 1em 5px;
+}
+#navMobile ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#ulMobile1{
+    display: flex;
+    justify-content: space-between;
+}
+#ulMobile2{
+    display: none;
+    background-color: aqua;
+}
+#liDesplazable:hover #ulMobile2{
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+#ulMobile2 li{
+    font-size: 1em;
+}
+
+/* MENU MOBILE INTENTO 2  */
+.navbarMobile2{
+    background-color: aqua;
+    /* padding: 100px; */
+}
+.mainMenuMobileUl2{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    /* display: flex; */
+    flex-direction: column;
+    align-items: center;
+    /* background-color: green; */
+    transition: transform 0.3s;
+    /* transform: translateY(-100%); */
+    display: none;
+}
+.toogle-menu__checkbox{
+    display: none;
+}
+.toogle-menu__checkbox:checked + .mainMenuMobileUl2{
+    /* transform: translateY(0); */
+    display: flex;
+}
+
+
+
+.mainMenuMobileUl2--show{
+    transform: translateY(0);
+}
+.mainMenuItem{
+    padding: 0.5em;
+}
+#mainMenuItemFinal{
+    padding-bottom: 0 !important;
+}
+
+.mainMenuItem a{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+
+.toggleMenu{
+    /* width: 40px; */
+    padding: 10px 0 10px 0;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    /* top: 0.5rem; */
+    /* left: 0.5rem; */
+    cursor: pointer;
+    /* filter: invert(1); */
+    z-index: 1;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* CINE MATCH */
+#divMatch{
+    /* height: 800vh; */
+    /* padding-top:3.2em ; */
+    padding-bottom: 2em;
+    /* height: 500px; */
+    background-color: white;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center;  */
+    /* overflow: hidden; */
+    align-items: center;
+    flex-direction: column; 
+    justify-content: flex-start; 
+}
+.matchCards{
+    background-color: whitesmoke;
+    width: 85%;
+    min-height: auto;
+    margin: 2em;
+    border: solid red;
+    text-align: center;
+    padding: 10px;
+    border-radius: 15px;
+    background: white;
+    border: 1px solid rgba(219,219,219);
+    box-shadow: 2px 5px 5px grey;
+    /* align-items: center; */
+}
+.divBarraMatch{
+    padding: 1em 0 1em 0;
+    color: black;
+}
+.imgMatch{
+    width: 150px;
+}
+#divMatch h5{
+    margin: 5px 0 20px 0;
+    font-weight: 900;
+}
+#divMatch button{
+    width: 100px;
+}
+#matchCards1{
+ display: block;
+}
+#botonMas{
+    width:200px !important;
+}
+#gifCarga{
+    width: 30px;
+    display: none;
+}
+/* #input-match1:checked + #matchCards1{
+    display: none;
+}
+#input-next1:checked #matchCards1{
+    background-color: green !important;
+} */
+
+/* --------------- */
+
+@media screen and (min-width: 750px){
+    #navbarMobile2{
+        display: none; 
+    }
+    .matchCards{
+        width: 500px;
+        min-height: auto;
+    }
+}
+@media screen and (max-width: 750px) {
+    #navbar{
+        display: none;
+    }
+    #hrIndex{
+        display: none;
+    }
+    .divBody{
+        /* background: darkgray;  */
+        /* padding: 3em 0 0 0; */
+        text-align: center;
+    }
+    .divBody h1{
+        text-transform: uppercase;
+        font-size: 1.2em;
+        font-weight: 900;
+        padding: 10px;
+    }
+    #formCineMatch{
+        width: 95%;
+        padding: 20px;
+        margin: 10px;
+    }
+    .labelTerminos{
+        font-size: 0.8em;
+    }
+    #formCineMatch h5{
+        font-size: 1em;
+    }
+    #sectionGeneralCineMatch{
+        padding: 0;
+    }
+    .divImagenEjemplo{
+        display:none;
+    }
+    #carouselExampleIndicators{
+        margin: 0;
+        padding:  3em 0 0 0;
+        /* background-color: pink; */
+    }
+    .carousel-control-prev{
+        display: none !important;
+    }
+    .carousel-control-next{
+        display: none !important;
+    }
+    #selection{
+        /* background-color: aqua; */
+        padding:0;
+        margin: 0;
+        display: block;
+    }
+    .dropdown{
+        margin: 10px;
+    }
+
+}

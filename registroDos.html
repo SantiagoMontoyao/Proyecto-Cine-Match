@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cinemark Hoyts</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="https://static.cinemarkhoyts.com.ar/Favicons/favicon-96x96.png" sizes="96x96">
+</head>
+<body>
+<nav id="navbar">
+    <a href="index.html" id="aIMG"><img src="imagenes/logo.png" alt=""></a>
+  <ul class="nav justify-content-center" id="ul-2">
+      <li class="nav-item">
+        <a class="nav-link"href="#">Películas</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Candy</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Cine Fan</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="iniciarRegistro.html">Cine Match</a>
+      </li>
+  </ul>
+  <div id="divOutline">
+    <img src="imagenes/search-outline.png" alt="">
+    <img src="imagenes/user-outline.png" alt="">
+  </div>
+</nav>
+
+<!-- NAVBAR MOBILE INTENTO 2 -->
+<nav id="navbarMobile2">
+  <div class="toggleMenu" id="toggleMenu">
+    <label for="toogle-menu-checkbox"><img src="imagenes/menu.png" alt="" id="imagenToogle"></label>
+    <a href="index.html"><img src="imagenes/logo.png" alt=""></a>
+    <img src="imagenes/search-outline.png" alt="">
+  </div>
+  <input type="checkbox" class="toogle-menu__checkbox" id="toogle-menu-checkbox">
+  <ul class="mainMenuMobileUl2" id="mainMenuMobileUl2">
+    <li class="mainMenuItem"><a href="index.html">
+      <img src="imagenes/logo.png" alt="">
+    </a></li>
+    <li class="mainMenuItem"><a href="">Películas</a></li>
+    <li class="mainMenuItem"><a href="">Candy</a></li>
+    <li class="mainMenuItem"><a href="">Cine Fan</a></li>
+    <li class="mainMenuItem" id="mainMenuItemFinal"><a href="iniciarRegistro.html">Cine Match</a></li>
+  </ul>
+</nav>
+
+
+
+
+<div class="divBody">
+    <h1>Completa tu Perfil</h1>
+<section id="sectionGeneralCineMatch">
+
+    <form id="formCineMatch">
+        <fieldset>
+            <h5>Decinos cual es tu Pelicula Favorita</h5>
+            <div class="form-floating">
+                <input type="email" class="form-control" id="floatingInput1" placeholder="pelicula">
+                <label for="floatingInput">Pelicula</label>
+              </div><br>
+
+            <h5>Selecciona tus 3 Cinemark y/o Hoyts de preferencia </h5>
+    
+            <!-- form datos -->
+            <div class="divsLabel">
+                <select class="form-select form-select-lg mb-3" aria-label="Default select example">
+                    <option selected></option>
+                    <option value="1">HOYTS ABASTO</option>
+                    <option value="2">CINEMARK AVELLANEDA</option>
+                    <option value="3">CINEMARK CABALLITO</option>
+                    <option value="4">HOYTS DOT</option>
+                    <option value="5">CINEMARK MALVINAS ARGENTINAS</option>
+                    <option value="6">CINEMARK MENDOZA</option>
+                    <option value="7">HOYTS MORENO</option>
+                    <option value="8">HOYTS MORON</option>
+                    <option value="9">CINEMARK NEUQUEN</option>
+                    <option value="10">HOYTS NUEVOCENTRO</option>
+                    <option value="11">CINEMARK PALERMO</option>
+                    <option value="12">HOYTS PATIO OLMOS</option>
+                    <option value="13">CINEMARK PUERTO MADERO</option>
+                    <option value="14">HOYTS QUILMES</option>
+                    <option value="15">HOYTS ROSARIO</option>
+                    <option value="16">HOYTS SALTA</option>
+                    <option value="17">CINEMARK SALTA</option>
+                    <option value="18">CINEMARK SAN JUSTO</option>
+                    <option value="19">CINEMARK SANTA FE</option>
+                    <option value="20">CINEMARK SOLEIL</option>
+                    <option value="21">HOYTS TEMPERLEY</option>
+                    <option value="22">CINEMARK TORTUGAS</option>
+                    <option value="23">HOYTS UNICENTER</option>
+                  </select>
+                  <select class="form-select form-select-lg mb-3" aria-label="Default select example">
+                    <option selected></option>
+                    <option value="1">HOYTS ABASTO</option>
+                    <option value="2">CINEMARK AVELLANEDA</option>
+                    <option value="3">CINEMARK CABALLITO</option>
+                    <option value="4">HOYTS DOT</option>
+                    <option value="5">CINEMARK MALVINAS ARGENTINAS</option>
+                    <option value="6">CINEMARK MENDOZA</option>
+                    <option value="7">HOYTS MORENO</option>
+                    <option value="8">HOYTS MORON</option>
+                    <option value="9">CINEMARK NEUQUEN</option>
+                    <option value="10">HOYTS NUEVOCENTRO</option>
+                    <option value="11">CINEMARK PALERMO</option>
+                    <option value="12">HOYTS PATIO OLMOS</option>
+                    <option value="13">CINEMARK PUERTO MADERO</option>
+                    <option value="14">HOYTS QUILMES</option>
+                    <option value="15">HOYTS ROSARIO</option>
+                    <option value="16">HOYTS SALTA</option>
+                    <option value="17">CINEMARK SALTA</option>
+                    <option value="18">CINEMARK SAN JUSTO</option>
+                    <option value="19">CINEMARK SANTA FE</option>
+                    <option value="20">CINEMARK SOLEIL</option>
+                    <option value="21">HOYTS TEMPERLEY</option>
+                    <option value="22">CINEMARK TORTUGAS</option>
+                    <option value="23">HOYTS UNICENTER</option>
+                  </select>
+                  <select class="form-select form-select-lg mb-3" aria-label="Default select example">
+                    <option selected></option>
+                    <option value="1">HOYTS ABASTO</option>
+                    <option value="2">CINEMARK AVELLANEDA</option>
+                    <option value="3">CINEMARK CABALLITO</option>
+                    <option value="4">HOYTS DOT</option>
+                    <option value="5">CINEMARK MALVINAS ARGENTINAS</option>
+                    <option value="6">CINEMARK MENDOZA</option>
+                    <option value="7">HOYTS MORENO</option>
+                    <option value="8">HOYTS MORON</option>
+                    <option value="9">CINEMARK NEUQUEN</option>
+                    <option value="10">HOYTS NUEVOCENTRO</option>
+                    <option value="11">CINEMARK PALERMO</option>
+                    <option value="12">HOYTS PATIO OLMOS</option>
+                    <option value="13">CINEMARK PUERTO MADERO</option>
+                    <option value="14">HOYTS QUILMES</option>
+                    <option value="15">HOYTS ROSARIO</option>
+                    <option value="16">HOYTS SALTA</option>
+                    <option value="17">CINEMARK SALTA</option>
+                    <option value="18">CINEMARK SAN JUSTO</option>
+                    <option value="19">CINEMARK SANTA FE</option>
+                    <option value="20">CINEMARK SOLEIL</option>
+                    <option value="21">HOYTS TEMPERLEY</option>
+                    <option value="22">CINEMARK TORTUGAS</option>
+                    <option value="23">HOYTS UNICENTER</option>
+                  </select>
+    
+            </div>
+            <h5>Contamos un poco de tus gustos en peliculas</h5> 
+            <div class="form-floating">
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                <label for="floatingTextarea2"></label>
+              </div><br>
+
+            <div>
+                <input class="form-check-input" type="checkbox" id="checkboxNoLabel" value="" aria-label="" name="check-terminos">
+                <label for="check-terminos" class="labelTerminos">He leído y estoy de acuerdo con los <a href="imagenes/terminos_y_condiciones.pdf" target="_blank">términos y condiciones</a>.</label>              
+            </div>
+
+            <div>
+                <input class="form-check-input" type="checkbox" id="checkboxNoLabel" value="" aria-label="" name="check-terminos2">
+                <label for="check-terminos2" class="labelTerminos">Deseo recibir novedades de Hoyts a mi correo electrónico.</label>              
+            </div>
+    
+            <div class="divsLabel">
+                <a href="maqueta.html#matchCards1" class="btn btn-secondary">COMENZAR CON CINE MATCH</a>
+            </div>
+        </fieldset>
+    </form>
+</section>
+
+</div>
+<!-- SCRIPT -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+</body>
+</html>
